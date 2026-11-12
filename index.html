@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIMPLE CAR COMMUNITY</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#080808;color:white}
+header{background:#111;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;border-bottom:1px solid #333}
+.logo{font-size:23px;font-weight:900}
+.logo span,.red{color:#ed2929}
+nav{display:flex;gap:20px}
+nav a{color:white;text-decoration:none;font-size:14px}
+nav a:hover{color:#ed2929}
+.hero{min-height:570px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:50px 20px;background:radial-gradient(ellipse at center,#471010 0%,#170707 45%,#080808 80%)}
+.hero h1{font-size:clamp(42px,9vw,75px);font-weight:900;line-height:1.1}
+.hero h1 span{background:linear-gradient(90deg,#fff,#ed2929);background-clip:text;color:transparent}
+.hero p{margin:22px 0;color:#ddd;letter-spacing:3px}
+.btn{display:inline-block;padding:13px 25px;background:linear-gradient(90deg,#a90000,#f33);color:white;text-decoration:none;border-radius:7px;font-weight:bold;margin:8px}
+section{padding:65px 8%;text-align:center}
+h2{font-size:30px;margin-bottom:28px}
+h2 span{color:#ed2929}
+.about{background:#111}
+.about p{max-width:750px;margin:auto;line-height:1.9;color:#ccc}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:#171717;border:1px solid #333;padding:25px 15px;border-radius:12px}
+.card h3{color:#f04444;margin-bottom:10px}
+.card p{color:#bbb;line-height:1.6;font-size:14px}
+.position{font-size:12px;color:#aaa;margin-bottom:8px}
+.agenda{background:linear-gradient(135deg,#300707,#111)}
+.agenda .card{max-width:550px;margin:auto}
+.contact{background:#111}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px}
+.photo{height:150px;border-radius:10px;background:linear-gradient(135deg,#400909,#171717);display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:bold;border:1px solid #633}
+footer{text-align:center;padding:25px;background:#050505;color:#888;font-size:13px}
+@media(max-width:600px){
+header{padding:15px 5%;flex-wrap:wrap;gap:12px}
+nav{width:100%;justify-content:center;gap:13px;flex-wrap:wrap}
+nav a{font-size:12px}
+section{padding:50px 6%}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">SIMPLE <span>CAR</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#profil">Profil</a>
+<a href="#pengurus">Pengurus</a>
+<a href="#agenda">Agenda</a>
+<a href="#kontak">Kontak</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1>SIMPLE <span>CAR</span></h1>
+<h2>COMMUNITY</h2>
+<p>TIMIKA PAPUA</p>
+<p>ONE COMMUNITY • ONE FAMILY • ONE PURPOSE</p>
+<a class="btn" href="#profil">JELAJAHI KOMUNITAS</a>
+</div>
+
+<section class="about" id="profil">
+<h2>TENTANG <span>KAMI</span></h2>
+<p>
+SIMPLE CAR COMMUNITY merupakan komunitas otomotif
+yang berada di Timika, Papua. Kami hadir sebagai wadah
+silaturahmi, persaudaraan, dan kebersamaan bagi para
+pecinta otomotif. Bersama membangun komunitas yang
+solid, kompak, dan penuh kekeluargaan.
+</p>
+</section>
+
+<section id="pengurus">
+<h2>STRUKTUR <span>PENGURUS</span></h2>
+<p style="color:#aaa;margin-bottom:25px">PERIODE 2026 – 2028</p>
+<div class="cards">
+<div class="card"><div class="position">PENASEHAT 1</div><h3>Marfin Tambun</h3></div>
+<div class="card"><div class="position">PENASEHAT 2</div><h3>Tadius Uta</h3></div>
+<div class="card"><div class="position">KETUA</div><h3>Vhian Makanahanap</h3></div>
+<div class="card"><div class="position">WAKIL KETUA</div><h3>Liando Yudha Adi Putra</h3></div>
+<div class="card"><div class="position">SEKRETARIS</div><h3>Brayen Wauran</h3></div>
+<div class="card"><div class="position">WAKIL SEKRETARIS</div><h3>Inno Talahatu</h3></div>
+<div class="card"><div class="position">BENDAHARA</div><h3>Benediktus A. Fereira</h3></div>
+</div>
+</section>
+
+<section class="agenda" id="agenda">
+<h2>AGENDA <span>KOMUNITAS</span></h2>
+<div class="card">
+<h3>KOPDAR SIMPLE CAR</h3>
+<p>Minggu, 15 November 2026</p>
+<p>Tempat: Om Herry Kawung</p>
+<p style="margin-top:15px">Mari hadir dan ramaikan kegiatan
+komunitas kita!</p>
+</div>
+</section>
+
+<section>
+<h2>GALERI <span>KOMUNITAS</span></h2>
+<div class="gallery">
+<div class="photo">SIMPLE CAR</div>
+<div class="photo">TOGETHER</div>
+<div class="photo">BROTHERHOOD</div>
+</div>
+<p style="color:#888;margin-top:15px;font-size:13px">
+Galeri foto kegiatan komunitas akan diperbarui.
+</p>
+</section>
+
+<section class="contact" id="kontak">
+<h2>HUBUNGI <span>KAMI</span></h2>
+<p style="color:#ccc;margin-bottom:15px">SIMPLE CAR COMMUNITY – TIMIKA PAPUA</p>
+<a class="btn" href="https://wa.me/6282197947419">
+HUBUNGI VIA WHATSAPP
+</a>
+</section>
+
+<footer>
+<p>© 2026 SIMPLE CAR COMMUNITY</p>
+<p>Timika, Papua | One Family, One Community</p>
+</footer>
+
+</body>
+</html>
